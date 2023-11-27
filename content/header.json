@@ -1,30 +1,26 @@
 {
   "marketing_stripe": {
-    "text": "Aproveite nossos descontos de até 50%!",
-    "link": "/promotion"
+    "text": "GANHE 10% DE DESCONTO NA PRIMEIRA COMPRA COM O CUPOM PRIMEIRACOMPRA",
+    "link": "",
+    "background": "#0DE6DF",
+    "color": "#000000"
   },
   "contacts_stripe": {
     "pages": [
-      {
-        "title": "Sobre nós",
-        "link": "/pages/sobre-nos"
-      },
-      {
-        "title": "Esta loja é um PWA",
-        "link": "/posts/esta-loja-e-um-pwa"
-      }
     ],
-    "phone_wpp": true,
-    "socials": true
+    "phone_wpp": false,
+    "socials": false
   },
   "categories_list": {
     "featured": [],
     "random": 6,
-    "full_width": false
+    "full_width": true
   },
   "centralized_logo": false,
-  "desktop_megamenu": false,
+  "desktop_megamenu": true,
+  "menu_all_departments": true,
   "search_input": true,
+  "name_all_departments": "Categorias",
   "alphabetical_order_submenu": false,
-  "full_width_submenu": false
+  "full_width_submenu": true
 }

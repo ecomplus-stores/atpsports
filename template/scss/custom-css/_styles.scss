@@ -1,1 +1,28 @@
 // Add your custom CSS here.
+.header {
+    background-color: #000;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+    &__nav-block {
+        a {
+            margin-top: 0;
+            padding: 12px 10px;
+        }
+        background-color: #fff;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__container {
+        margin-bottom: 0;
+    }
+
+    &__submenu {
+        margin-top: 12px;
+    }
+}
