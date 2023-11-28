@@ -7,6 +7,18 @@
   },
   "contacts_stripe": {
     "pages": [
+      {
+        "title": "Sobre Atsport",
+        "link": "/" 
+      },
+      {
+        "title": "Atendimento",
+        "link": "/" 
+      },
+      {
+        "title": "Dúvidas Frequentes",
+        "link": "/" 
+      }
     ],
     "phone_wpp": false,
     "socials": false

@@ -72,7 +72,7 @@ const hasAllDepartments = header.menu_all_departments
       <% } %>
     <% } %>
   <% } %>
-  <% if (header.contacts_stripe.pages && header.contacts_stripe.pages.length) { %>
+  <% if (header.contacts_stripe.pages && header.contacts_stripe.pages.length && false) { %>
           <div class="top-bar__nav d-none d-md-block">
             <div class="container-fluid">
               <div class="row">
@@ -203,6 +203,18 @@ const hasAllDepartments = header.menu_all_departments
         </div>
       </div>
 
+      <% if (true) { %>
+        <% if (header.contacts_stripe.pages) { console.log('oi') %>
+          <div class="header__page-links d-none d-lg-inline-block">
+            <% header.contacts_stripe.pages.forEach(({ link, title })=> { %>
+              <a href="<%= link %>">
+                <%= title %>
+              </a>
+            <% }) %>
+          </div>
+        <% } %>
+      <% } %>
+
       <% if (header.search_input) {
         const searchColSize = !isCategoriesNavFull && categories.length ? '-3' : ''
         %>
@@ -256,17 +268,7 @@ const hasAllDepartments = header.menu_all_departments
         </div>
       <% } %>
 
-      <% if (themeCustom === 'ecom-beauty' && isCategoriesNavFull) { %>
-        <% if (header.contacts_stripe.pages) { %>
-          <div class="header__page-links d-none d-lg-inline-block">
-            <% header.contacts_stripe.pages.forEach(({ link, title })=> { %>
-              <a href="<%= link %>">
-                <%= title %>
-              </a>
-            <% }) %>
-          </div>
-        <% } %>
-      <% } %>
+      
 
       <% if (categories && categories.length) { %>
         <div class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %> header__nav-block">

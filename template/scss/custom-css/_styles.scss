@@ -1,10 +1,37 @@
 // Add your custom CSS here.
 .header {
     background-color: #000;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0;
+    padding: 0;
 
+    &__logo-block {
+        padding: 30px !important;
+    }
+
+    &__container {
+        margin-top: 0 !important;
+    }
+
+    #user-button, #cart-button {
+        i {
+            color: var(--primary)
+        }
+    }
+
+    &__buttons {
+        padding-right: 15px;
+    }
+
+    &__page-links {
+        a {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+    #search-form {
+        border-radius: 20px;
+    }
+    
     &__nav-block {
         a {
             margin-top: 0;
@@ -23,6 +50,19 @@
     }
 
     &__submenu {
-        margin-top: 12px;
+        margin-top: 1px !important;
     }
+
+    #cd-all {
+        background-color: #000;
+        border-radius: 0;
+        color: var(--primary);
+        i {
+            color: var(--primary)
+        }
+    }
+}
+
+.products-carousel__item {
+    background-color: #F3F3F3 !important;
 }
