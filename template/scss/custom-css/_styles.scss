@@ -81,8 +81,14 @@
 }
 
 .products-carousel__title::before {
-    content: '';
-    height: 0;
+    background: var(--primary) 0% 0% no-repeat padding-box;
+    content: " " !important;
+    height: 4px;
+    left: unset;
+    margin-top: -.05rem;
+    position: absolute;
+    top: 80%;
+    width: 16%;
 }
 
 .banners-grid.opt-2 .row > div {
@@ -133,4 +139,13 @@
     min-height: 60px;
     padding: 10px 50px;
     text-transform: uppercase;
-  }
+}
+
+@media(max-width: 767px) {
+    .header__toggler i, #mobile-search-btn {
+        color: var(--primary);
+    }
+    .banners-grid .banner {
+        width: 100%;
+    }
+}
