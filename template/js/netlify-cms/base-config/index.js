@@ -67,36 +67,27 @@ export default options => {
         widget: 'object',
         icon: 'https://api.iconify.design/mdi:copyright.svg',
         fields: [
-          {
-            label: 'Ordenação',
-            required: false,
-            name: 'sort',
-            widget: 'select',
-            options: [
-              {
-                label: 'Padrão',
-                value: ''
+            {
+                label: 'Selecione categorias',
+                required: true,
+                name: 'category_ids',
+                widget: 'select',
+                multiple: true,
+                options: [{
+                  resource: 'categories',
+                  label: 'Categoria: '
+                }].reduce((options, shelf) => {
+                  state.routes.forEach(({ _id, resource, name, path }) => {
+                    if (resource === shelf.resource) {
+                      options.push({
+                        label: shelf.label + name,
+                        value: `${_id}`
+                      })
+                    }
+                  })
+                  return options
+                }, [])
               },
-              {
-                label: 'Alfabética',
-                value: 'name'
-              }
-            ]
-          },
-          {
-            label: 'Limite de Categorias',
-            name: 'limit',
-            widget: 'number',
-            min: 1,
-            max: 48,
-            default: 24
-          },
-          {
-            label: 'Offset de Categorias',
-            name: 'offset',
-            widget: 'hidden',
-            default: 0
-          },
           {
             label: 'Carousel autoplay',
             required: false,
@@ -105,6 +96,12 @@ export default options => {
             min: 0,
             step: 1000,
             widget: 'number'
+          },
+          {
+            name: 'title',
+            widget: 'string',
+            required: false,
+            label: 'Nome do carousel de categorias'
           }
         ]
       },

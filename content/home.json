@@ -40,6 +40,16 @@
       ]
     },
     {
+      "type": "categories-carousel",
+      "title": "Confira nossas categorias",
+      "category_ids": [
+        "656554932cd6b65959c04076",
+        "656554822cd6b65959c04063",
+        "6565546e2cd6b65959c0403c",
+        "6565545a2cd6b65959c0401b"
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": null,
@@ -50,9 +60,29 @@
       "page": 1
     },
     {
-      "type": "page-title",
-      "title": "Loja demo da E-Com Plus",
-      "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
+      "type": "banners-grid",
+      "id": "2",
+      "banners": [
+        {
+          "img": "/img/uploads/banner-horizontal@2x.png",
+          "link": "",
+          "alt": "Zero Açucar"
+        },
+        {
+          "img": "/img/uploads/banner-horizontal2@2x.png",
+          "alt": "Zero Conservantes"
+        }
+      ]
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "collection_id": null,
+      "sort": "offers",
+      "title": "Ofertas",
+      "headless": false,
+      "limit": 12,
+      "page": 1
     }
   ]
 }
