@@ -1,7 +1,7 @@
 {
   "domain": "atpsports.netlify.app",
   "currency_symbol": "R$",
-  "primary_color": "#0DE6DF",
+  "primary_color": "#f76002",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
