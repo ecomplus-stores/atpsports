@@ -8,10 +8,12 @@
       "full_width": false,
       "slides": [
         {
-          "img": "/img/uploads/banner-fullwidth@2x.png",
+          "img": "/img/uploads/10-off.jpg",
           "link": "/",
           "alt": " banner",
-          "mobile_img": "/img/uploads/banner-fullwidth@2x.png"
+          "mobile_img": "/img/uploads/10-off.jpg",
+          "start": "",
+          "end": ""
         }
       ]
     },
