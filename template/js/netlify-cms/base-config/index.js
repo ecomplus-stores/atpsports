@@ -7,6 +7,21 @@ import getExtraPages from "@ecomplus/storefront-template/template/js/netlify-cms
 import getWidgets from "@ecomplus/storefront-template/template/js/netlify-cms/base-config/collections/widgets"
 
 export default options => {
+  [{
+    resource: 'categories',
+    label: 'Categoria: '
+  }].reduce((list, shelf) => {
+    options.state.routes.forEach(({ _id, resource, name, path }) => {
+      if (resource === shelf.resource) {
+        list.push({
+          label: shelf.label + name,
+          value: `${_id}`
+        })
+      }
+    })
+    console.log(list)
+    return list
+  }, [])
   options.sections = getSections(options).concat([
     {
         label: "Grid de Avaliações",
@@ -61,7 +76,7 @@ export default options => {
             }
         ]
     },
-    {
+   /*  {
         label: 'Carrossel de Categorias',
         name: 'categories-carousel',
         widget: 'object',
@@ -76,7 +91,7 @@ export default options => {
                 options: [{
                   resource: 'categories',
                   label: 'Categoria: '
-                }].reduce((options, shelf) => {
+                }].reduce((list, shelf) => {
                   options.state.routes.forEach(({ _id, resource, name, path }) => {
                     if (resource === shelf.resource) {
                       options.push({
@@ -104,7 +119,7 @@ export default options => {
             label: 'Nome do carousel de categorias'
           }
         ]
-      },
+      }, */
   ])
 
   return {
