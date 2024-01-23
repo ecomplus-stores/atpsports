@@ -61,7 +61,7 @@ export default options => {
             }
         ]
     },
-    {
+    /* {
         label: 'Carrossel de Categorias',
         name: 'categories-carousel',
         widget: 'object',
@@ -104,7 +104,7 @@ export default options => {
             label: 'Nome do carousel de categorias'
           }
         ]
-      },
+      }, */
   ])
 
   return {
