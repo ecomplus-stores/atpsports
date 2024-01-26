@@ -6,24 +6,10 @@
     },
     {
       "type": "product-block",
-      "enabled": true,
-      "size_guide": {
-        "image": "",
-        "title": ""
-      }
-    },
-    {
-      "type": "related-products",
-      "title": "Produtos relacionados"
-    },
-    {
-      "type": "recommended-products",
-      "title": "Quem comprou este produto, também comprou:",
-      "show_loading": true
+      "enabled": true
     },
     {
       "type": "product-description",
-      "title": "Quem comprou este produto, também comprou:",
       "enabled": true
     },
     {
@@ -31,8 +17,13 @@
       "enabled": true
     },
     {
-      "type": "product-specifications",
-      "enabled": true
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "60490c0da735d032cbb762ec:categories:Femy:/femy-moda-feminina",
+      "sort": "news",
+      "title": "ÚLTIMOS LANÇAMENTOS EM NOSSA LOJA"
     }
   ]
 }

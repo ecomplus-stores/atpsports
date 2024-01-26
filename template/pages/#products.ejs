@@ -19,3 +19,30 @@ _.breadcrumbs.push({
 %>
 
 <%- await include('@/view') %>
+<a href="javascript:;" data-toggle="modal" data-target="#mdal-size-guide" class="confira-medidas">Confira suas medidas</a>
+<div class="modal modal-center fade" id="mdal-size-guide" tabindex="-1" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <button id="close-mobile" type="button" class="close" data-dismiss="modal" style="display: none; padding: 7px">
+                          <span aria-hidden="true">x</span>
+                        </button>
+                        <div class="modal-header" style="display: flex;align-items: center; justify-content: space-between">
+                          <h3 class="modal-title">TABELA DE MEDIDAS</h3>
+                          <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">x</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="/img/uploads/guia.jpeg" alt="Tabela de tamanhos">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+<script type="text/javascript">
+  storefront.on('widget:@ecomplus/widget-minicart', function () {
+    setTimeout(function () {
+      var guia = document.querySelector('.confira-medidas')
+      document.querySelector('.variations__grid--size').append(guia)
+    }, 800);
+  });
+</script>

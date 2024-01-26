@@ -5,92 +5,65 @@
     {
       "type": "banner-slider",
       "autoplay": 9000,
-      "full_width": false,
       "slides": [
         {
-          "img": "/img/uploads/10-off.jpg",
-          "link": "/",
-          "alt": " banner",
-          "mobile_img": "/img/uploads/design-sem-nome-77-.png",
           "start": "",
-          "end": ""
+          "end": "",
+          "img": "/img/uploads/banner-femy.png",
+          "link": "https://femy.com.br/colecao-resort-alto-verao",
+          "mobile_img": "/img/uploads/36.png"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/cupom-1-compra.jpg",
-          "mobile_img": "/img/uploads/design-sem-nome-14-.jpg"
+          "img": "/img/uploads/5.png",
+          "mobile_img": "/img/uploads/37.png",
+          "link": "https://femy.com.br/colecao-resort-alto-verao-viscaya"
+        },
+        {
+          "start": "2024-01-15T19:42:39.315Z",
+          "end": "",
+          "img": "/img/uploads/banner-basic-1-.png",
+          "link": "https://femy.com.br/linha-basic",
+          "mobile_img": "/img/uploads/banner-mobile-basic-1-.png"
         }
-      ]
+      ],
+      "full_width": true
     },
     {
-      "type": "banners-grid",
-      "id": 1,
-      "banners": [
-        {
-          "img": "/img/uploads/banner1.png",
-          "link": "",
-          "alt": "Artesanal"
-        },
-        {
-          "img": "/img/uploads/banner2.png",
-          "alt": "Organica"
-        },
-        {
-          "img": "/img/uploads/banner3.png",
-          "link": "",
-          "alt": "Zero Açucar"
-        },
-        {
-          "img": "/img/uploads/banner4.png",
-          "alt": "Zero Conservantes"
-        }
-      ]
-    },
-    {
-      "type": "categories-carousel",
-      "title": "Confira nossas categorias",
-      "category_ids": [
-        "656554932cd6b65959c04076",
-        "656554822cd6b65959c04063",
-        "6565546e2cd6b65959c0403c",
-        "6565545a2cd6b65959c0401b"
-      ]
+      "type": "info-bar",
+      "enabled": false
     },
     {
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": null,
-      "sort": "offers",
-      "title": "Mais Vendidos",
-      "headless": false,
       "limit": 12,
-      "page": 1
-    },
-    {
-      "type": "banners-grid",
-      "id": "2",
-      "banners": [
-        {
-          "img": "/img/uploads/banner-horizontal@2x.png",
-          "link": "",
-          "alt": "Zero Açucar"
-        },
-        {
-          "img": "/img/uploads/banner-horizontal2@2x.png",
-          "alt": "Zero Conservantes"
-        }
-      ]
+      "page": 1,
+      "title": "LANÇAMENTOS DA ÚLTIMA COLEÇÃO",
+      "sort": "news"
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
-      "collection_id": null,
-      "sort": "offers",
-      "title": "Ofertas",
-      "headless": false,
-      "limit": 12,
-      "page": 1
+      "shuffle": false,
+      "limit": 24,
+      "page": 1,
+      "collection_id": "60490c1ba735d032cbb76319:categories:Viscaya:/viscaya",
+      "sort": "news",
+      "title": "A MELHOR SELEÇÃO DA VISCAYA"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 24,
+      "page": 1,
+      "collection_id": "60490c0da735d032cbb762ec:categories:Femy:/femy-moda-feminina",
+      "sort": "sales",
+      "title": "OS MAIS VENDIDOS DA FEMY"
+    },
+    {
+      "type": "custom-html",
+      "html": "<span style=\"display: flex; justify-content: center\">SIGA NOSSO INSTAGRAM <a href=\"https://www.instagram.com/femyoficial/\" target=\"_blank\"> @FEMYOFICIAL</a></span><div id=\"instagram-feed\" class=\"instagram_feed\"></div>\n"
     }
   ]
 }

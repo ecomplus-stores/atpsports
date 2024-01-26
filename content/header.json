@@ -1,38 +1,22 @@
 {
   "marketing_stripe": {
-    "text": "GANHE 10% DE DESCONTO NA PRIMEIRA COMPRA COM O CUPOM PRIMEIRACOMPRA",
-    "link": "",
-    "background": "#0DE6DF",
-    "color": "#000000"
+    "text": "QUER COMPRAR NO ATACADO? CLIQUE AQUI",
+    "link": "https://atacado.femy.com.br/"
   },
   "contacts_stripe": {
-    "pages": [
-      {
-        "title": "Sobre Atsport",
-        "link": "/" 
-      },
-      {
-        "title": "Atendimento",
-        "link": "/" 
-      },
-      {
-        "title": "Dúvidas Frequentes",
-        "link": "/" 
-      }
-    ],
-    "phone_wpp": false,
+    "pages": [],
+    "phone_wpp": true,
     "socials": false
   },
   "categories_list": {
-    "featured": [],
-    "random": 6,
+    "featured": [
+      "/femy-moda-feminina?Femy",
+      "/viscaya?Viscaya",
+      "/vestidos?Vestidos",
+      "/blusas?Blusas"
+    ],
+    "random": 4,
     "full_width": true
   },
-  "centralized_logo": false,
-  "desktop_megamenu": true,
-  "menu_all_departments": true,
-  "search_input": true,
-  "name_all_departments": "Categorias",
-  "alphabetical_order_submenu": false,
-  "full_width_submenu": true
+  "search_input": true
 }

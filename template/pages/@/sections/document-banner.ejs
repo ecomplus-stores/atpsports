@@ -10,10 +10,18 @@ if (Array.isArray(_.state.pictures) && _.state.pictures.length) {
         data-src="<%= _.state.pictures[0].url %>"
         alt="<%= _.state.pictures[0].alt %>"
       >
-    <% } else { %>
+    <% } else { 
+      const banners = _.state.pictures
+      const onlyOnePicture = [{
+        "img": banners[1].url,
+        "mobile_img": banners[0].url,
+        "link": "https://femy.com.br/colecao-sofisticada"
+      }]
+
+      %>
       <%- await include('@/sections/banner-slider', {
         _, opt: {
-          slides: _.state.pictures.map(({ url, alt }) => ({ img: url, alt }))
+          slides: onlyOnePicture
         }
       }) %>
     <% } %>

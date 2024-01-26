@@ -1,11 +1,11 @@
 {
   "description": {
-    "title": "",
-    "text": ""
+    "title": "Femy Moda Feminina e Evangélica",
+    "text": "A moda faz parte da expressão da identidade feminina. Acompanha o tempo, o contexto, se transforma seguindo os passos da sociedade. Assim como a moda, a Femy se transformou, sem perder sua essência.  Produzindo roupas evangélicas desde 2001, a marca vem crescendo e amadurecendo levando para a mulher contemporânea e cheia de estilo produtos com o que há de mais novo e autêntico no mercado de moda com qualidade, diversificação e sofisticação."
   },
   "links_1": {
     "list_pages": true,
-    "title": "Páginas",
+    "title": "INSTITUCIONAL",
     "list": []
   },
   "links_2": {
@@ -23,19 +23,24 @@
   "stamps": [
     {
       "src": "/img/uploads/ssl-safe.png",
-      "alt": "Secure connection",
-      "width": 150,
-      "height": 62
+      "alt": "Secure connection"
     }
   ],
   "payment_methods": {
-    "pix": true,
+    "bb": true,
     "visa": true,
-    "mastercard": true,
+    "boleto": true,
+    "aura": false,
+    "banrisul": false,
     "elo": true,
-    "amex": true,
-    "hipercard": true,
-    "boleto": true
+    "hipercard": false,
+    "hsbc": false,
+    "bradesco": true,
+    "santander": false,
+    "mastercard": true,
+    "citibank": false,
+    "mais": false,
+    "itau": true
   },
   "credits": ""
 }
