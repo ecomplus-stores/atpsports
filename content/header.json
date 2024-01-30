@@ -4,12 +4,18 @@
     "link": ""
   },
   "contacts_stripe": {
-    "pages": [],
+    "pages": [
+      {}
+    ],
     "phone_wpp": true,
     "socials": false
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/leggins?Leggins",
+      "/tops?Tops",
+      "/promocoes?PROMOÇÕES"
+    ],
     "random": 4,
     "full_width": true
   },
