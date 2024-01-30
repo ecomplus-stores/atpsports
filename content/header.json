@@ -1,7 +1,7 @@
 {
   "marketing_stripe": {
-    "text": "QUER COMPRAR NO ATACADO? CLIQUE AQUI",
-    "link": "https://atacado.femy.com.br/"
+    "text": "QUER COMPRAR NO ATACADO? CLIQUE AQUI!",
+    "link": ""
   },
   "contacts_stripe": {
     "pages": [],
@@ -9,12 +9,7 @@
     "socials": false
   },
   "categories_list": {
-    "featured": [
-      "/femy-moda-feminina?Femy",
-      "/viscaya?Viscaya",
-      "/vestidos?Vestidos",
-      "/blusas?Blusas"
-    ],
+    "featured": [],
     "random": 4,
     "full_width": true
   },
