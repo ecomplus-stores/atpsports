@@ -54,7 +54,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<span style=\"display: flex; justify-content: center\">SIGA NOSSO INSTAGRAM <a href=\"https://www.instagram.com/femyoficial/\" target=\"_blank\"> @FEMYOFICIAL</a></span><div id=\"instagram-feed\" class=\"instagram_feed\"></div>\n"
+      "html": "<span style=\"display: flex; justify-content: center\">SIGA NOSSO INSTAGRAM <a href=\"https://www.instagram.com/atpsports/\" target=\"_blank\"> @ATPSPORTS</a></span><div id=\"instagram-feed\" class=\"instagram_feed\"></div>\n"
     }
   ]
 }
