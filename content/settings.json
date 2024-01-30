@@ -1,16 +1,16 @@
 {
   "domain": "atpsports.com.br",
   "currency_symbol": "R$",
-  "primary_color": "#855042",
+  "primary_color": "#000000",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
   },
-  "bg_color": "#675562",
+  "bg_color": "#000000",
   "repository": "ecomplus-stores/atpsports",
   "logo": "/img/uploads/logo-atp-3-.png",
   "name": "ATP Sports Moda Fitness",
-  "short_name": "Femy Moda Feminina",
+  "short_name": "ATP Sports Moda Feminina",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
@@ -18,7 +18,7 @@
   "favicon": "/img/uploads/logo-atp-3-.png",
   "icons_font": "_",
   "country_code": "BR",
-  "secondary_color": "#675562",
+  "secondary_color": "#ffffff",
   "icon": "/img/uploads/logo-atp-3-.png",
   "store_id": 51479,
   "description": "A moda faz parte da expressão da identidade feminina. Acompanha o tempo, o contexto, se transforma seguindo os passos da sociedade. Assim como a moda, a Femy se transformou, sem perder sua essência. Produzindo roupas evangélicas desde 2001, a marca vem crescendo e amadurecendo levando para a mulher contemporânea e cheia de estilo produtos com o que há de mais novo e autêntico no mercado de moda com qualidade, diversificação e sofisticação.",
