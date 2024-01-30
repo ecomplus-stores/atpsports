@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.d1daa99652cd2489ddd47079675692e0.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.8e65650ca1cd681206dac64a2241847f.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.3d7834d03d0220b88d0c77592b6aea7e.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.547c49ec0c8085a91906a8f4472180c7.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.1d0b5a35586982d16a0e6ba88ae5cc8f.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "ATP Sports Moda Fitness",
+  "short_name": "ATP Sports Moda Feminina",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "A moda faz parte da expressão da identidade feminina. Acompanha o tempo, o contexto, se transforma seguindo os passos da sociedade. Assim como a moda, a Femy se transformou, sem perder sua essência. Produzindo roupas evangélicas desde 2001, a marca vem crescendo e amadurecendo levando para a mulher contemporânea e cheia de estilo produtos com o que há de mais novo e autêntico no mercado de moda com qualidade, diversificação e sofisticação.",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}
