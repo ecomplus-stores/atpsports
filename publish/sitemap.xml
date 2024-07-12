@@ -386,6 +386,12 @@
     </url>
   
     <url>
+      <loc>https://atpsports.com.br/atp-sports</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://atpsports.com.br/promocoes</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -411,12 +417,6 @@
   
     <url>
       <loc>https://atpsports.com.br/short</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://atpsports.com.br/atp-sports</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
