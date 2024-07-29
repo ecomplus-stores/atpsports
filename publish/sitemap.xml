@@ -656,6 +656,18 @@
     </url>
   
     <url>
+      <loc>https://atpsports.com.br/blusa-feminina-lupo-sport-azul</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://atpsports.com.br/blusa-feminina-lupo-sport-pomodoro</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
       <loc>https://atpsports.com.br/promocoes</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
