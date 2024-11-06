@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
+      <loc>https://atpsports.com.br/promocoes</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://atpsports.com.br/leggins</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://atpsports.com.br/tops</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://atpsports.com.br/conjunto</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://atpsports.com.br/short</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://atpsports.com.br/calca-legging-feminina-recorte-magenta</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
@@ -302,39 +332,9 @@
     </url>
   
     <url>
-      <loc>https://atpsports.com.br/teste</loc>
+      <loc>https://atpsports.com.br/calca-legging</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
-    </url>
-  
-    <url>
-      <loc>https://atpsports.com.br/promocoes</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://atpsports.com.br/leggins</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://atpsports.com.br/tops</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://atpsports.com.br/conjunto</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://atpsports.com.br/short</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
     </url>
   
     <url>
@@ -350,13 +350,13 @@
     </url>
   
     <url>
-      <loc>https://atpsports.com.br/pages/sobre-nos</loc>
+      <loc>https://atpsports.com.br/pages/privacidade</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://atpsports.com.br/pages/privacidade</loc>
+      <loc>https://atpsports.com.br/pages/sobre-nos</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -380,15 +380,15 @@
     </url>
   
     <url>
-      <loc>https://atpsports.com.br/blog</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
       <loc>https://atpsports.com.br/</loc>
       <changefreq>daily</changefreq>
       <priority>1</priority>
+    </url>
+  
+    <url>
+      <loc>https://atpsports.com.br/blog</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
     </url>
   
     <url>
